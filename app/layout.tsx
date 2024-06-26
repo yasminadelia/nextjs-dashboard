@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Next PWA Dashboard App",
   description: "A Next.js application with PWA capabilities",
   manifest: "/manifest.json",
-  icons: { icon: "/favicon.ico", apple: "/favicon.ico" },
+  icons: { icon: "/logo.png", apple: "/logo.png" },
 };
 
 export default function RootLayout({
