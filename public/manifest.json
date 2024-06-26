@@ -1,6 +1,6 @@
 {
-  "name": "Offline Next.js Dashboard App",
-  "short_name": "OfflineApp",
+  "name": "Next.js PWA Dashboard App",
+  "short_name": "NextPWA",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
