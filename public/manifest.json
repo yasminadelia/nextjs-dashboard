@@ -1,4 +1,5 @@
 {
+  "id": "test_id",
   "name": "Next.js PWA Dashboard App",
   "short_name": "NextPWA",
   "start_url": "/",
@@ -8,8 +9,18 @@
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/logo.png",
-      "sizes": "32x32",
+      "src": "logos/logo-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "logos/logo-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "logos/logo-256x256.png",
+      "sizes": "256x256",
       "type": "image/png"
     }
   ]

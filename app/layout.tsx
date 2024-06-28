@@ -5,8 +5,12 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Next PWA Dashboard App",
   description: "A Next.js application with PWA capabilities",
+  generator: "Next.js",
+  keywords: ["nextjs", "nextjs13", "next13", "pwa", "next-pwa"],
   manifest: "/manifest.json",
-  icons: { icon: "/logo.png", apple: "/logo.png" },
+  viewport:
+    "minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover",
+  icons: { icon: "/logos/logo-96x96.png", apple: "/logos/logo-96x96.png" },
 };
 
 export default function RootLayout({
