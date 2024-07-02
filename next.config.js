@@ -1,4 +1,7 @@
 const nextConfig = {
+  experimental: {
+    ppr: 'incremental' // partial pre-rendering for specific routes
+  },
   reactStrictMode: true,
   swcMinify: true,
   compiler: {
@@ -19,3 +22,4 @@ const withPWA = require("@ducanh2912/next-pwa").default({
 });
 
 module.exports = withPWA(nextConfig);
+// module.exports = nextConfig;
