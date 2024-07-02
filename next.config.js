@@ -1,6 +1,7 @@
 const nextConfig = {
   experimental: {
-    ppr: 'incremental' // partial pre-rendering for specific routes
+    ppr: 'incremental', // partial pre-rendering for specific routes
+    serverActions: true,
   },
   reactStrictMode: true,
   swcMinify: true,
